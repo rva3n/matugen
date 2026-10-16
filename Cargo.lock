@@ -1703,43 +1703,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "matugen"
-version = "4.2.0"
-dependencies = [
- "ariadne",
- "chumsky",
- "clap",
- "color-eyre",
- "colorsys",
- "comfy-table",
- "convert_case",
- "criterion",
- "csscolorparser",
- "dialoguer",
- "directories",
- "enquote",
- "execute",
- "image",
- "indexmap",
- "jxl-oxide",
- "log",
- "material-colors",
- "owo-colors",
- "palette",
- "paris-log",
- "pretty_env_logger",
- "reqwest 0.12.5",
- "resolve-path",
- "serde",
- "serde_json",
- "sha2",
- "thiserror 2.0.12",
- "toml",
- "update-informer",
- "winapi",
-]
-
-[[package]]
 name = "maybe-rayon"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1878,6 +1841,43 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841"
 dependencies = [
  "autocfg",
+]
+
+[[package]]
+name = "oberoncolor"
+version = "4.2.0"
+dependencies = [
+ "ariadne",
+ "chumsky",
+ "clap",
+ "color-eyre",
+ "colorsys",
+ "comfy-table",
+ "convert_case",
+ "criterion",
+ "csscolorparser",
+ "dialoguer",
+ "directories",
+ "enquote",
+ "execute",
+ "image",
+ "indexmap",
+ "jxl-oxide",
+ "log",
+ "material-colors",
+ "owo-colors",
+ "palette",
+ "paris-log",
+ "pretty_env_logger",
+ "reqwest 0.12.5",
+ "resolve-path",
+ "serde",
+ "serde_json",
+ "sha2",
+ "thiserror 2.0.12",
+ "toml",
+ "update-informer",
+ "winapi",
 ]
 
 [[package]]
